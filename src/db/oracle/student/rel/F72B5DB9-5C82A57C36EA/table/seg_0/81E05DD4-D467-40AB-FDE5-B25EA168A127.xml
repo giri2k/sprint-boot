@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="81E05DD4-D467-40AB-FDE5-B25EA168A127" name="TBL_STUDENT">
+<createdBy>Himmu</createdBy>
+<createdTime>2017-05-28 06:09:01 UTC</createdTime>
+<ownerDesignName>student</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ST_ID" id="035D566E-8D96-A952-725F-9FD805F3AF70">
+<createdBy>Himmu</createdBy>
+<createdTime>2017-05-28 06:10:41 UTC</createdTime>
+<ownerDesignName>student</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ST_NAME" id="247FF6C0-F97B-8570-E305-9936B6BE4DD4">
+<createdBy>Himmu</createdBy>
+<createdTime>2017-05-28 06:10:41 UTC</createdTime>
+<ownerDesignName>student</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ST_GUARDIAN" id="48219012-CE9D-D1C4-E572-28CD5263BAD5">
+<createdBy>Himmu</createdBy>
+<createdTime>2017-05-28 06:11:24 UTC</createdTime>
+<ownerDesignName>student</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="19B7EC20-3D05-B21C-FD84-83CB03C582F5" name="TBL_STUDENT_PK">
+<createdBy>Himmu</createdBy>
+<createdTime>2017-05-28 06:10:41 UTC</createdTime>
+<ownerDesignName>student</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="035D566E-8D96-A952-725F-9FD805F3AF70"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
